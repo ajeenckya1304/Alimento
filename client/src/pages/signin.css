@@ -1,0 +1,101 @@
+
+.signin {
+    width: 100%;
+    height: 91vh;
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-left: 9%;
+    /* flex-direction: column; */
+}
+
+
+#role  {
+    font-size: 50px;
+    margin-right: 8% ;
+    font-weight: bolder;
+}
+  
+  
+.signin_form {
+padding-top: 12px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+min-width: 400px;
+max-width: 400px;
+border-radius: 12px;
+min-height: 500px;
+background-color: white;
+opacity: 0.8;
+padding-bottom: 32px;
+box-shadow: 6px 10px 20px black;
+}
+
+.inputs {
+padding: 0px 8px;
+margin : 2px auto;
+/* border : 2px solid black; */
+border-radius: 8px;
+width: 80%;
+line-height: 42px;
+box-shadow: 1px 1px 2px black;
+
+}
+
+
+
+#title {
+text-align: center;
+width: 100%;
+font-size: 36px;
+font-weight: bold;
+
+}
+
+.passcontainer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.register {
+width: 80%;
+color : white;
+background-color: #6F11F5;
+line-height: 42px;
+border-radius: 8px;
+margin-top: 4px;
+}
+
+.google {
+color: blueviolet;
+}
+
+.view {
+    text-align: center;
+    background-color: white;
+    padding : 12px 20px ;
+    width: 20%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.view > *{
+    margin: 0;
+    padding: 0;
+}
+
+#pass {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+
+.others {
+    text-align: center;
+}

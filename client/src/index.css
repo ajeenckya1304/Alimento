@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+  background-image: url("../../img4.png");
+  background-repeat: no-repeat;
+  background-size: 800px auto;
+  background-color: #fff2ea;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navig {
+  background-color:#FFF0DE;
+  line-height: 38px;
+  width: 100vw;
+}

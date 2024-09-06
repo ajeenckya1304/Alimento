@@ -1,0 +1,25 @@
+.cards {
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 8px;
+    width: 90%;
+    text-align: left;
+    padding: 12px 24px;
+    margin: 24px 12px;
+}
+
+.cards li {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cards button {
+    background-color: blueviolet;
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    left: 50%;;
+    transform: translate(-50%,0%);
+    
+}
